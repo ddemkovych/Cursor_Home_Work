@@ -16,11 +16,11 @@ let sumaPrise = (winePrise + cheesePrise + coffeePrise);
 console.log(sumaPrise);
 
 //Округлення
-let lowerPrice = Math.floor(sumaPrise);
+let lowerPrice = Math.floor(winePrise) + Math.floor(cheesePrise) + Math.floor(coffeePrise);
 console.log(lowerPrice);
 
 //Округлену до сотень
-let hundRound = (Math.floor(sumaPrise / 100) * 100);
+let hundRound = (Math.ceil(sumaPrise / 100) * 100);
 console.log(hundRound);
 
 //Сума товарів є
