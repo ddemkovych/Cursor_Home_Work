@@ -1,6 +1,6 @@
-let winePrise = 123.965;
-let cheesePrise = 90.2345;
-let coffeePrise = 15.678;
+const winePrise = 123.965;
+const cheesePrise = 90.2345;
+const coffeePrise = 15.678;
 
 
 //максимальне число
