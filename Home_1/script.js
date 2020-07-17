@@ -28,7 +28,8 @@ let sumOfall = Math.floor(sumaPrise) % 2 === 0 ? 'true' : 'false';
 console.log(sumOfall);
 
 //Суму решти
-let cash = 500 - sumaPrise;
+const allMoney = 500;
+let cash = allMoney - sumaPrise;
 console.log(cash);
 
 //Середнє значення цін з округленням
